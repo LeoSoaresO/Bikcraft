@@ -12,6 +12,10 @@ header {
     padding: 10px 0px;
     position: fixed;
     top: 0;
+    z-index: 10;
+}
+img{
+    display: block;
 }
 .btn{
     color: #fec63e;
@@ -23,6 +27,11 @@ header {
 .btn:hover {
     color: #ffffff;
     border-color: #ffffff;
+    transition: ease-out 0.8s;
+}
+.btn-black:hover{
+    color: #000000;
+    border-color: #000000;
     transition: ease-out 0.8s;
 }
 .head-menu {
@@ -49,7 +58,7 @@ header {
     width: 100%;
     background: url(../img/bg.jpg);
     background-size: cover;
-    margin-top: 86px;
+    margin-top: 82px;
     height: 380px;
     text-align: center;
     padding-top: 80px;
@@ -84,4 +93,121 @@ header {
     font-weight: bold;
     font-size: 16px;
     letter-spacing: .1em;
+}
+.sub-title{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: .0.5em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.sub-title::after{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000000;
+    margin: 8px auto;
+}
+.produtos{
+    padding: 60px 0;
+}
+.produtos-list{
+    text-align: center;
+}
+.produtos-list li {
+    background-color: #fec63e;
+}
+.produtos-list li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .0.5em;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+.produtos-list li h3::after{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000000;
+    margin: 8px auto;
+}
+.produtos-icone{
+    background-color: #000000;
+    padding: 15px 0px 15px 0px;
+}
+.produtos-list li p {
+    padding: 0px 10px 15px 10px; 
+}
+.call{
+    text-align: center;
+    padding-top: 30px;
+    clear: both;
+}
+.call p {
+    margin-bottom: 20px;
+}
+.portfolio{
+    width: 100%;
+    background-color: #000000;
+    padding: 40px 0px 40px 0px;
+}
+.portfolio h2{
+    color: #fec63e;
+}
+.portfolio h2::after{
+    background-color: #fec63e;
+}
+.portfolio p{
+    color: #ffffff;
+}
+.port-lista:last-child {
+    margin-top: 20px;
+}
+.qualidade {
+    padding: 60px 0px;
+}
+.qualidade::after{
+    width: 634px;
+    content: "";
+    height: 83px;
+    display: block;
+    background: url(../img/linhas.svg) no-repeat center;
+    position: absolute;
+    top: 197px;
+    right: 162px;
+    z-index: -1;
+}
+.qualidade img{
+    margin: 0 auto;
+}
+.qualidade-lista {
+    padding-top: 20px;
+}
+.qualidade-lista li {
+    text-align: center;
+    padding: 0 40px;
+}
+.qualidade-lista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .0.5em;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+.qualidade-lista li h3::after{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000000;
+    margin: 8px auto;
 }
