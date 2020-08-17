@@ -1,0 +1,43 @@
+.intro-sobre {
+    width: 100%;
+    background: url(../img/bg-sobre.jpg);
+    background-size: cover;
+    margin: 30px 0px;
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+}
+.intro-sobre h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.intro-sobre h1::after{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 10px auto;
+}
+.intro-sobre p{
+    color: #ffffff;
+}
+.conteudo-sobre{
+    display: flex;
+    margin-bottom: 40px;
+}
+.missao h2 {
+    text-align: start;
+}
+.missao h2::after{
+    margin: 8px 0px;
+}
+.missao li, p{
+    font-size: 18px;
+    margin-right: 20px;
+}
+#margin {
+    margin-bottom: 180px;
+}
