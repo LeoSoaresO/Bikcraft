@@ -1,6 +1,6 @@
 .intro-sobre {
     width: 100%;
-    background: url(../img/bg-sobre.jpg);
+    background: url(../img/bg-sobre.jpg) no-repeat center;
     background-size: cover;
     margin: 30px 0px;
     height: 200px;
@@ -40,4 +40,7 @@
 }
 #margin {
     margin-bottom: 180px;
+}
+.equipe{
+    margin: 0px 10px;
 }
