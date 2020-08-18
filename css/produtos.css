@@ -147,4 +147,18 @@
 }
 .dados span{
     display: block;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+.dados .email{
+    margin-bottom: 40px;
+}
+.dados ul li {
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 15px;
+}  
+.dados ul li:nth-child(odd){
+    background-color: #1d1d1d;
 }
