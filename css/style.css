@@ -219,7 +219,7 @@ img{
     margin: 8px auto;
 }
 .quebra{
-    background: url(../img/bg-footer.jpg) no-repeat;
+    background: url(../img/bg-footer.jpg) no-repeat center;
     width: 100%;
     padding: 40px 0;
     height: 220px;
