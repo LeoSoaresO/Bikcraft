@@ -85,9 +85,66 @@
 .produto-info ul li:nth-child(1), .produto-info ul li:nth-child(2){
     margin-bottom: 2px;
 }
+.orçamento{
+    height: 600px;
+    width: 100%;
+    padding-top: 40px;
+    background-color: #000000;
+}
 .orçamento h2{
     color: #fec63c;
 }
 .orçamento h2::after{
     background-color: #fec63c;
+}
+.form {
+    padding-right: 60px;
+}
+.form label {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
+    margin-bottom: 5px; 
+}
+.form input {
+    display: block;
+    width: 100%;
+    border: 3px solid #fec63c;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 7px 10px;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.form textarea{
+    display: block;
+    width: 100%;
+    border: 3px solid #fec63c;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 7px 10px;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.form button{
+    background: transparent;
+    padding: 10px 30px;
+}
+.dados{
+    color: #ffffff;
+}
+.dados h3 {
+    font-size: 18px;
+    color: #fec63c;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 25px;
+    letter-spacing: .0.4em;
+}
+.dados span{
+    display: block;
 }
