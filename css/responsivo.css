@@ -1,0 +1,44 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+
+}
+
+
+
+
+@media only screen and (max-width: 787px) {
+
+    header{
+        position: relative;
+        padding-bottom: 0;
+    }
+    header img{
+        margin: 0 auto 20px auto;
+    }
+    .head-menu{
+        text-align: center;
+    }
+    .head-menu ul li{
+        margin: 4px;
+    }
+    .head-menu ul li a {
+        font-size: 18px;
+        padding: 10px 10px; 
+        border: 3px solid #000000;
+        display: block;
+        float: left;
+        width: 130px;
+    }
+    .head-menu ul li a:hover{
+        border-color: #ffffff;
+        transition: ease 0.3s;
+    }
+    .head-menu ul li a.menu-ativo{
+        border-color: #ffffff;
+    }
+    .intro{
+        margin-top: 0;
+        padding-top: 20px;
+    }
+
+}
