@@ -16,6 +16,7 @@ header {
 }
 img{
     display: block;
+    max-width: 100%;
 }
 .btn{
     color: #fec63e;
