@@ -1,6 +1,11 @@
 @media only screen and (min-width: 788px) and (max-width: 979px) {
 
-
+    .qualidade::after{
+        right: 66px;       
+    }
+    .qualidade-lista li{
+        padding: 0 10px
+    }
 }
 
 
@@ -38,7 +43,23 @@
     }
     .intro{
         margin-top: 0;
-        padding-top: 20px;
+        padding-top: 40px;
+    }
+    .qualidade::after{
+        display: none;
+    }
+    .footer {
+        background: #000000;
+        width: 100%;
+        height: auto;
+        color: #ffffff;
+        padding-top: 10px;
+    }
+    .intro h1 {
+        font-size: 36px;
+        font-weight: bold;
+        color: #ffffff;
+        text-transform: uppercase;
     }
 
 }
