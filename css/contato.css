@@ -1,0 +1,184 @@
+.intro-contato {
+    width: 100%;
+    background: url(../img/bg-contato.jpg) no-repeat center;
+    background-size: cover;
+    margin: 30px 0px;
+    height: 200px;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 30px;
+}
+.intro-contato h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.intro-contato h1::after{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 10px auto;
+}
+.intro-contato p{
+    color: #ffffff;
+}
+.produtos-pg {
+    height: px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.produtos-pg h2{
+    color: #ffffff;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: .0.5em;
+    font-weight: bolder; 
+    position: relative;
+    top: -180px;
+    text-align: center;
+    margin-bottom: -65px;
+}
+.produtos-pg h2::before, .produtos-pg h2::after{
+    content:"";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 10px auto;
+}
+.pg-icone{
+    background-color: #000000;
+    padding: 70px 0;
+}
+.pg-icone img {
+    margin: 0 auto;
+}
+.produto-info{
+    background-color: #000000;
+}
+.produto-info p {
+    font-size: 18px;
+    padding: 30px 40px;
+    line-height: 25px;
+    color: #ffffff;
+    height: 180px;
+}
+.produto-info ul li {
+    background-color: #fec63c;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    float: left;
+    width: 229px;
+    height: 49px; 
+    text-align: center;
+    padding: 15px 0;
+    font-weight: bold;
+    letter-spacing: .0.5em;
+}
+.produto-info ul li:nth-child(even){
+    margin-left: 2px;
+}
+.produto-info ul li:nth-child(1), .produto-info ul li:nth-child(2){
+    margin-bottom: 2px;
+}
+.contato{
+    height: 500px;
+    width: 100%;
+    padding-top: 40px;
+}
+.contato h2{
+    color: #fec63c;
+}
+.contato h2::after{
+    background-color: #fec63c;
+}
+.form {
+    padding-right: 60px;
+}
+.form label {
+    display: block;
+    color: #000000;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
+    margin-bottom: 5px; 
+}
+.form input {
+    display: block;
+    width: 100%;
+    border: 3px solid #fec63c;
+    background-color: transparent;
+    color: #000000;
+    padding: 7px 10px;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.form textarea{
+    display: block;
+    width: 100%;
+    border: 3px solid #fec63c;
+    background-color: transparent;
+    color: #000000;
+    padding: 7px 10px;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.form button{
+    background: transparent;
+    padding: 10px 30px;
+}
+.dados{
+    color: #000000;
+}
+.dados h3 {
+    font-size: 18px;
+    color: #fec63c;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 25px;
+    letter-spacing: .0.4em;
+}
+.dados span{
+    display: block;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+.dados .email{
+    margin-bottom: 40px;
+}
+.dados ul li {
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 15px;
+}  
+.contato_redes ul {
+    display: flex;
+}
+.contato_redes ul li {
+    margin-right: 20px;
+    border: 3px solid #fec63e;
+    padding: 10px;
+}
+.contato_redes ul li:hover{
+    border-color: #000000;
+    transition: ease-out 0.8s;
+}
+.sub-contato{
+    text-align: start;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: .0.5em;
+    padding: 10px 0px;
+}
+.img-margin{
+    margin: 40px 10px;
+}
