@@ -41,3 +41,21 @@
     text-align: end;
     margin: 5px 0px 60px 0px;
 }
+.portfolio-content{
+    width: 100%;
+    background-color: #000000;
+    padding: 40px 0px 40px 0px;
+    height: 700px;
+}
+.portfolio-content h2{
+    color: #fec63e;
+}
+.portfolio-content h2::after{
+    background-color: #fec63e;
+}
+.portfolio-content p{
+    color: #ffffff;
+}
+.port-lista:last-child {
+    margin-top: 20px;
+}
