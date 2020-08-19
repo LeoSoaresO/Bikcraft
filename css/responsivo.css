@@ -9,6 +9,25 @@
     .footer {
         height: 200px;        
     }
+    .produtos-pg{
+        height: 490px;
+    }
+    .produtos-pg h2{
+        top: -150px;        
+        margin-bottom: -65px;
+    }
+    .pg-icone{
+        background-color: #000000;
+        padding: 41px 0;
+    }
+    .produto-info p{
+        font-size: 14px;
+        padding: 10px 30px;
+        height: 122px;
+    }
+    .produto-info ul li {
+        width: 181px;
+    }
 }
 
 
@@ -71,5 +90,42 @@
     #margin{
         margin-bottom: 0;
     }
-
+    .produtos-pg{
+        height: auto;
+        margin-bottom: 130px;
+    }
+    .produtos-pg h2{
+        top: -110px;        
+        margin-bottom: -68px;
+    }
+    .pg-icone{
+        background-color: #000000;
+        padding: 25px 0;
+    }
+    .produto-info p{
+        font-size: 14px;
+        padding: 10px 30px;
+        height: auto;
+    }
+    .produto-info ul li {
+        width: 149px;
+        margin-bottom: 60px;
+        font-size: 16px;
+        line-height: 20px;
+        padding-top: 14px;
+    }
+    .orçamento{
+        height: auto;
+    }
+    .form {
+        padding-right: 0px;
+    }
+    .italico {
+        margin-top: 30px;
+    }
+    .img-margin{
+        margin-top: 350px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
