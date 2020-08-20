@@ -289,7 +289,7 @@ img{
   .js [data-slide] > .active {
     position: relative;
     opacity: 1;
-    transition: opacity ease-in 0.9s;
+    transition: opacity ease-in 1.0s;
     z-index: 1;
   }
   .js [data-slide-nav] {
