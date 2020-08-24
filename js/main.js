@@ -11,3 +11,6 @@ new SimpleSlide({
     time: 4000, 
   });
 }
+if(window.SimpleAnime){
+  new SimpleAnime();
+}
